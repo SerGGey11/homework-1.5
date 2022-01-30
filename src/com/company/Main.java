@@ -51,5 +51,14 @@ public class Main {
                 System.out.println(chars[i]);
             }
         }
+        System.out.println();
+        for (int i = 0; i < ints.length; i++) {
+            if (ints[i] % 2 != 0) {
+                ints[i] = ints[i] + 1;
+                System.out.print(ints[i] + " ");
+            } else {
+                System.out.print(ints[i] + " ");
+            }
+        }
     }
 }
